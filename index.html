@@ -7,10 +7,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
 </head>
 <body>
     <!-- navbar -->
-    <div class="navba flex justify-between  m-8">
+    <div class="navba flex flex-col lg:flex-row justify-between m-4 gap-4">
         <div class="flex gap-[10px]">
             <img class="h-[50px] mt-2" src="assets/logo.png" alt="">
             <h1 class="font-bold text-2xl text-green-800">Emergency <br> Service </h1>
@@ -42,11 +43,11 @@
         <p class="text-white font-semibold pt-3">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
      </div>
 
-     <!-- card -->
-    <div class="flex bg-[#dfefff] ">
+    <!-- card -->
+    <div class="flex flex-col lg:flex-row bg-[#dfefff]">
            <!-- 1 -->
-        <div class="   h-[1200px] w-[1400px] mt-5  grid grid-cols-3 gap-2">
-            <div class="w-[380px] border-2 border-gray-200 h-[350px] bg-white rounded-xl m-5 p-5 shadow-xl shadow-gray-300">
+        <div class="w-full max-w-screen-xl mx-auto mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="w-full max-w-md border-2 border-gray-200 bg-white rounded-xl m-2 p-4 shadow-xl shadow-gray-300 flex flex-col justify-between">
                 <div class="flex justify-between items-center ">
                     <img class=" rounded-2xl bg-[#FFE3E2]" src="assets/emergency.png" alt="">
                     <i id="heart1" class="fa-regular fa-heart "></i>
@@ -230,8 +231,8 @@
             
         </div>
 
-        <!--  TRANSACTION -->
-        <div class=" w-[450px] h-[1150px]  ml-5 mt-10 rounded-xl m-5  bg-white ">
+    <!--  TRANSACTION -->
+    <div class="w-full max-w-md ml-0 lg:ml-5 mt-5 rounded-xl m-2 bg-white flex-shrink-0">
             <div class="flex justify-between">
                 <div class="flex justify-center   gap-[15px] font-bold text-lg m-2">
                     <i class="fa-regular fa-clock mt-2"></i>
